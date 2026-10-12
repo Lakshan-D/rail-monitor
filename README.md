@@ -38,7 +38,7 @@ Update this table as you test on hardware.
 No hardware needed for the first two:
 
 ```bash
-./run_tests.sh                                  # C unit tests, then Python tests
+bash run_tests.sh                                  # C unit tests, then Python tests
 python3 ground/inject_faults.py                 # link fault injection sweep
 python3 ground/monitor.py --demo --plot         # ground station on synthetic data
 ```
