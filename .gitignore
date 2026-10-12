@@ -1,0 +1,7 @@
+   build/
+   __pycache__/
+   *.pyc
+   firmware/tests/c_frame.hex
+   results/telemetry.csv
+   results/telemetry.png
+   *.bin
